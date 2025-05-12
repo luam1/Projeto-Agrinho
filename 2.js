@@ -48,3 +48,4 @@ document.addEventListener('DOMContentLoaded', () => {
             commentInput.value = '';
         }
     });
+//qualqer coisa
