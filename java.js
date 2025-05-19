@@ -1,7 +1,7 @@
 const map = L.map('map').setView([-15.7942, -47.8825], 12);
 
-L.tileLayer('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWT6hDHmB-6RWlKKDS1B58XC9wctP5622ZQw&s', {
-    attribution: '&copy; <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWT6hDHmB-6RWlKKDS1B58XC9wctP5622ZQw&s">OpenStreetMap</a>'
+L.tileLayer('https://www.guarapari.es.gov.br/uploads/files/campo-2.jpg', {
+    attribution: '&copy; <a href="https://www.guarapari.es.gov.br/uploads/files/campo-2.jpg">OpenStreetMap</a>'
 }).addTo(map);
 
 const feiraMarker = L.marker([-15.7942, -47.8825]).addTo(map);
