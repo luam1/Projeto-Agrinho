@@ -14,4 +14,8 @@ body {
 container-circlo {
     background-image: none;
     border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
 }
