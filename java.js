@@ -1,4 +1,3 @@
-
 const feiraMarker = L.marker([-15.7942, -47.8825]).addTo(map);
 feiraMarker.bindPopup("<b>Feira da Torre</b><br>Produtos orgânicos toda sexta.").openPopup();
 
