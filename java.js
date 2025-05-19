@@ -1,7 +1,7 @@
 const map = L.map('map').setView([-15.7942, -47.8825], 12); // Coordenadas de Brasília (exemplo)
 
-L.tileLayer('https://assets.isu.pub/document-structure/221119041949-30b30f466f44396195609f3583632672/v1/a28672ab10673d80e1a07859838b8b8e.jpeg', {
-    attribution: '&copy; <a href="https://assets.isu.pub/document-structure/221119041949-30b30f466f44396195609f3583632672/v1/a28672ab10673d80e1a07859838b8b8e.jpeg">OpenStreetMap</a>'
+L.tileLayer('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWT6hDHmB-6RWlKKDS1B58XC9wctP5622ZQw&s', {
+    attribution: '&copy; <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWT6hDHmB-6RWlKKDS1B58XC9wctP5622ZQw&s">OpenStreetMap</a>'
 }).addTo(map);
 
 const feiraMarker = L.marker([-15.7942, -47.8825]).addTo(map);
