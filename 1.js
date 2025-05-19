@@ -1,4 +1,4 @@
-        function login() {
+function login() {
     const email = document.getElementById('email').value;
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     if (email && username) {
         alert(`Bem-vindo de volta, ${username}!`);
    
-        window.location.href = 'index2.html';
+        window.location.href = '2.html';
     }
 });
