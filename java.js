@@ -1,8 +1,3 @@
-const map = L.map('map').setView([-15.7942, -47.8825], 12); // Coordenadas de Brasília (exemplo)
-
-L.tileLayer('', {
-    attribution: '&copy; <a href="">OpenStreetMap</a>'
-}).addTo(map);
 
 const feiraMarker = L.marker([-15.7942, -47.8825]).addTo(map);
 feiraMarker.bindPopup("<b>Feira da Torre</b><br>Produtos orgânicos toda sexta.").openPopup();
